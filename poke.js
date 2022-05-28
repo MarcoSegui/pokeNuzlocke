@@ -36,7 +36,7 @@ function genCheck (){
     }if ((check1.checked) && (check2.checked)) {
         min = 1
         max = 251
-    }if ((check1.checked) && (check3.checked)) {
+    }if ((check1.checked) && (check3.checked) && (!check2.checked)) {
         min = 0
         max = 0
         alert("No puedes elegir la 3ra generacion sin seleccionar la segunda generación")
