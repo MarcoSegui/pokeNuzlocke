@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- CSS -->
+     <link rel="stylesheet" href="public/styles.css">
+    <title>NUZLOCKE POKEMON</title>
+</head>
+<body>
+    <div id="div1" class="switch-button">
+        <center><h3>
+            <input type="checkbox" name="switch-button" id="switch1" class="checkbox">
+            1ra Generación
+                   
+            <input type="checkbox" name="switch-button" id="switch2" class="checkbox">
+            2ra Generación        
+        
+            <input type="checkbox" name="switch-button" id="switch3" class="checkbox">
+            3ra Generación</h3>
+            <br><br>
+              
+            <button type="button" name="switch-button" id="go"><h1>Go!</h1></button>
+
+            <br><br>
+        </h3></center>
+    </div>
+
+    <div id="div2" class="contenedorCards">
+
+            <section class="card">
+                <img id= "poke1" src="img/pokebola.png" alt="" width="200" height="200">
+            </section>
+
+            <section class="card">
+                <img id= "poke2" src="img/pokebola.png" alt="" width="200" height="200">
+            </section>
+
+            <section class="card">
+                <img id= "poke3" src="img/pokebola.png" alt="" width="200" height="200">
+            </section>
+
+            <section class="card">
+                <img id= "poke4" src="img/pokebola.png" alt="" width="200" height="200">
+            </section>
+
+            <section class="card">
+                <img id= "poke5" src="img/pokebola.png" alt="" width="200" height="200">
+            </section>
+
+            <section class="card">
+                <img id= "poke6" src="img/pokebola.png" alt="" width="200" height="200">
+            </section>
+              
+    </div>
+    
+    <div id="div3" class="switch-button_exception">
+        <h3><center>
+            Excepciones para el primer pokemon que salga:
+        </center></h3>
+        
+        <center>
+        <input type="checkbox" name="switch-button" id="switch4" class="checkbox">
+            Sin <b>Metapod, Kakuna, Silcoon ni Cascoon</b> (no poseen ataques de daño)        
+        <br>
+        <input type="checkbox" name="switch-button" id="switch5" class="checkbox">
+            Sin <b>Magikarp ni Feebas</b> (a nvl 15 aprenden Placaje y al nvl 30 Azote)
+        </h4>
+        <br><br>
+        <button id="refresh"><h1>Recargar</h1></button>
+    </center>
+    </div>
+
+    <script src="poke.js"></script>
+</body>
+</html>
